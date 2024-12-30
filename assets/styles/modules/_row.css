@@ -1,0 +1,20 @@
+.row {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    gap: 1rem;
+    
+    @mixin atMedium{
+        flex-direction: row;
+        
+        &__medium4{
+            flex: 0 0 33.33%; /* Takes up 33.33% of the row */
+            border: solid 1px red;
+        }
+
+        &__medium8{
+            flex: 0 0 66.66%; /* Takes up 66.66% of the row */
+            border: solid 1px red;
+        }
+    }
+}
