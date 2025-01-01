@@ -8,7 +8,11 @@
     }
 
     &--centered{
-        text-align: center;;
+        text-align: center;
+    }
+
+    &--alignedleft{
+        text-align: left;
     }
 
     &--orange{
@@ -34,5 +38,9 @@
 
     &--b-margin-large{
         margin-bottom: 1.6rem;
+    }
+
+    &--no-t-margin{
+        margin-top:0;
     }
 }

@@ -7,3 +7,15 @@ img{
     max-width: 100%;
     height: auto;
 }
+
+/* Default link styles */
+a {
+    color: orange; /* Default and link color */
+    text-decoration: none; /* No underline by default */
+}
+
+/* Hover link styles */
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: orange; /* Maintain orange color on hover */
+}
