@@ -11,6 +11,7 @@
         flex-direction: row;
         padding: 4rem 0;
         gap: 4rem;
+        
 
         &__medium-4{
             flex: 0 0 33.33%; /* Takes up 33.33% of the row */
@@ -31,5 +32,14 @@
             color: $mainBlue;
         }
    
+    }
+
+    &--equal-height-at-medium{
+        background-color: rgba(255,255,255, .8);
+        
+        @mixin atMedium{
+            align-items: stretch;
+        }
+        
     }
 }
