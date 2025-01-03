@@ -1,5 +1,13 @@
 .testimonial {
     padding: 0 1.815rem 1px 1.815rem;
+    margin-bottom: 60px;
+    margin-top: 3rem;
+
+    @mixin atMedium {
+        margin-bottom: 0;;
+        padding: 0 1.815rem 1px 1.815rem;
+        margin-top: 0;
+    }
 
     &__photo{
         position: relative;
@@ -26,5 +34,10 @@
         text-align: center;
         font-weight: 400;
         margin: .25rem .25rem;
+        margin-bottom: 1rem;
+    }
+
+    &--last {
+        margin-bottom: 0;
     }
 }
