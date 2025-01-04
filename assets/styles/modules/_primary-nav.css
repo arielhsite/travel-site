@@ -1,5 +1,4 @@
 .primary-nav{
-    border: solid 1px red;
 
     &--pull-right{
         float: right;

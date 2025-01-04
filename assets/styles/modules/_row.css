@@ -25,7 +25,8 @@
             margin-bottom: 0;
         }
     }
-    @mixin atSmall {
+    
+    @mixin atLarge {
         
         &__medium-8{
             flex: 0 0 58%; 
