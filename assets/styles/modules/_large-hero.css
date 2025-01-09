@@ -9,10 +9,14 @@
     &__text-content{
         position: absolute;
         top:50%;
-        transform: translateY(-50%);
+        transform: translateY(-36%);
         left:0;
         width: 100%;
         text-align:center;
+
+        @mixin atMedium {
+            transform: translateY(-50%);
+        }
     }
     
     &__title {
@@ -24,6 +28,7 @@
         @mixin atSmall {
             font-size: 4.8rem;
         }
+        
 
     }
     
